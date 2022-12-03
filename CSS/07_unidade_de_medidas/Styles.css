@@ -1,0 +1,41 @@
+/* 
+h1{
+    background-color: rgb(255, 0, 0);
+} */
+
+/* UNIDADES DE MEDIDAS:
+   -> ABSOLUTAS
+       px (pixels)
+       in (inches/polegadas)
+       cm / mm (centímetros e milímetros)
+
+   -> RELATIVAS:  
+       % (calcula o tamanho relativo ao elemento pai) 
+       vw (view width) 1 vw é 1% da largura da janela do navegador -> adapta a tela pra celular, tablet, etc.
+       vh (view height) 1 vh é 1% da altura da janela do navegador -> adapta a tela pra celular, tablet, etc.
+       em (é uma unidade relativa ao elemento pai)
+       rem (é uma unidade relativa ao elemento raiz
+*/
+
+.vo{
+    font-size: 16px;
+}
+
+.pai{
+    width: 50vw;
+    height: 50vh;
+    background: red;
+    color: #FFFFFF;
+    font-size: 2em;
+
+}
+
+.filho{
+    width: 50%;
+    height: 50%;
+    background: blue;
+    color: #FFFFFF;
+    font-size: 3rem;
+
+
+}

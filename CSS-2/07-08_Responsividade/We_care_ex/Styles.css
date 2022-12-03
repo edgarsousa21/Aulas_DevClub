@@ -1,0 +1,104 @@
+/* CSS */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+    margin: 47px 0 246px 42px;
+}
+
+.link-reader {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    cursor: pointer;
+    margin-right: 25px;
+    letter-spacing: 0.875px;
+    color: #17233D;
+}
+
+.button-reader {
+    background: #6FBF44;
+    border: none;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+
+}
+
+.logo-image {
+    width: 595.18px;
+    height: 500px;
+    left: 121px;
+    top: 246px;
+    margin-left: 121px;
+    display: inline-block;    
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+    margin-bottom: 50px;    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    width: 500px;
+    height: 164px;
+    top: 342px;
+    left: 801px;
+    text-align: left;
+    /* or 132% */
+    /* letter-spacing: 0.596154px; */
+    color: #161A49;
+    margin-bottom: 50px;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: left;
+    /* or 183% */
+    width: 493px;
+    height: 99px;
+    left: 801px;
+    top: 553px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 50px;
+}
+
+.link-main {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    letter-spacing: 1px;
+    color: #6FBF44;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+
+

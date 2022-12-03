@@ -1,0 +1,56 @@
+        /* PSEUDO ELEMENTOS */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        input {
+            border: 1px solid red;
+            color: blue;
+
+        }
+
+        input::placeholder {
+            color: #FF1396;
+
+
+        }
+
+        p {
+            color: blue;
+        }
+
+        p::first-letter {
+            color: red;
+
+        }
+
+        p::first-line{
+            color: green;
+
+        }
+
+        a{
+            color: blue;
+        }
+
+        a::after{
+            content: " 🚀";
+        }
+
+        a::before{
+            content: " 😎";
+        }
+
+
+        /* 
+        O QUE MAIS VAMOS USAR:
+
+        - placeholder
+        - first-letter
+        - first-line
+        - before
+        - after
+        */

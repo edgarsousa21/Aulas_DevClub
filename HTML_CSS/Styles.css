@@ -1,0 +1,23 @@
+
+    /*OBRIGATÓRIO PONTO E VÍRGULA ;*/
+    h1#titulo {
+        color: red;
+        background: black;
+        font-size: 55px;
+    }
+
+    P{
+        color: blue;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #botao{
+        background: green;
+        border-color: darkgreen;
+    }
+
+    #outro-botao{
+        background: chocolate;
+        border-color: darkred;
+    }
