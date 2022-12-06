@@ -7,8 +7,8 @@ João e João, imprime true. João e Maria, imprime false.
 
 const array = ["Edgar","Sandra"]
 
-console.log(array[0] == array[1]) // Edgar e Sandra - false
+console.log(array[0] === array[1]) // Edgar e Sandra - false
 
-console.log(array[0] == array[0]) // Edgar e Edgar - true
+console.log(array[0] === array[0]) // Edgar e Edgar - true
 
-console.log(array[1] == array[1]) // Sandra e Sandra - true
+console.log(array[1] === array[1]) // Sandra e Sandra - true

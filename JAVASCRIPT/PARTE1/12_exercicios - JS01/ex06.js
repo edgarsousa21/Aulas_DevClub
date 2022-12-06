@@ -7,5 +7,5 @@ let name1 = "Edgar"
 let name2 = "Sandra"
 //name1=name2
 
-console.log(name1 != name2) // != sinal de diferente, na comparação, se Edgar é diferente
+console.log(name1 !== name2) // != sinal de diferente, na comparação, se Edgar é diferente
                                   //de Sandra, então a afirmação é verdadeira "true"  

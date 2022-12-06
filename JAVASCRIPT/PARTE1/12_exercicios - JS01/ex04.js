@@ -5,7 +5,7 @@
 
 const name1 = "Edgar"
 const name2 = "Saulo"
-const phrase = `Olá, meu nome é ${name1} e meu partner é: ${name2}`
+const phrase = `Olá, meu nome é ${name1} e meu partner no DevClub é: ${name2}`
 console.log(phrase)
 
 

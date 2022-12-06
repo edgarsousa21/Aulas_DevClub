@@ -9,10 +9,13 @@ e ele imprime se o primeiro número é menor que o segundo. Ex: 2 e 5. Imprime: 
 
 const number1 = 7
 const number2 = 3
+const res = number1 % number2
 
-const result  = number1 - Math.floor(number1/number2) * number2
+//const result  = number1 - Math.floor(number1/number2) * number2
 
-console.log(result)
+//console.log(result)
+
+console.log(res) 
 
 const number3 = 2
 const number4 = 5
