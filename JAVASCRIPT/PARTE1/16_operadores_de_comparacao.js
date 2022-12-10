@@ -14,4 +14,4 @@ const seccondPerson = 'Maria'
 const firstNumber = '23'
 const seccondNumber = 23
 
-console.log(firstNumber === seccondNumber)
+console.log(firstNumber == seccondNumber)
