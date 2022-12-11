@@ -1,0 +1,14 @@
+*{
+    box-sizing:border-box;/*acrescenta medidas sem crescer a caixa*/
+    /* box-sizing: content-box; -> acrescenta medidas crescenso a caixa */
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background: #FF1493;
+    border: 10px solid #0000FF
+    /* box-sizing: ; */
+    /*BOX SIZING*/
+}

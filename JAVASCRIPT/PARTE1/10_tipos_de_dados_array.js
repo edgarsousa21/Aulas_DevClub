@@ -1,8 +1,8 @@
 /*
     ARRAY - vetor - lista
 */
-
-const numbers = [10,5,234,345]
+const list = new Array(10) // declara array com 10 posições
+const numbers = [10,5,234,345] // ou const numbers new Array(10,5,234,345)
 // NOS ARRAYS COMEÇAMOS PEÇA POSIÇÃO ZERO (0).
 console.log(numbers[0])
 
@@ -37,3 +37,8 @@ const people = [{
 }
 ]
  console.log(people[1].age)
+
+ console.log(people.length) // tamanho do array
+
+ console.log(list[1])
+
