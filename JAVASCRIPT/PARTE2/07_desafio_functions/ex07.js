@@ -11,7 +11,7 @@ DESAFIO FUNCTIONS
         
        let taxa = (montante - capital) /(capital * tempoMes)
 
-       console.log(`O valor da taxa em ${tempoMes} meses é de: ${taxa} ou ${taxa*100} % ao mês `)
+       console.log(`O valor da taxa em ${tempoMes} meses é de: ${taxa.toFixed(3)} ou ${taxa.toFixed(3)*100} % ao mês `)
 
  } 
  let invest = 2500 // investimento

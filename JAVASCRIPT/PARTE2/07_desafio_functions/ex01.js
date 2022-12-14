@@ -8,7 +8,7 @@ DESAFIO FUNCTIONS
 const listNumbers = number => {
 
     for (let i = 1; i <= number; i++) {
-        console.log(i)
+        console.log('Contando... ',i)
 
     }
 

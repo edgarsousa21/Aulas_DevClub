@@ -13,19 +13,22 @@ const mediaSalChildren = (people, quant) => {
   let contChildren = 0
   let sal = new Array(quant - 1)  
  
-  for (let i = 0; i < quant; i = i + 1) {
+  for (let i = 0; i < quant; i = i + 1) {       
     sal[i] = people[i].salary
     contSalary = contSalary + people[i].salary
     contChildren = contChildren + people[i].children
   }//for
+
 
   let mediaSalary = contSalary / quant
   let mediaChildren = contChildren / quant
   let salMax = Math.max(...sal)
 
 
+
   console.log(`A média dos salários é de: ${mediaSalary}, e a média dos filhos é de: ${Math.ceil(mediaChildren)}
         e o salário maior é de ${salMax} `)
+  
 
   
 }

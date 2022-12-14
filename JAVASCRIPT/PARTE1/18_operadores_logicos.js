@@ -11,7 +11,7 @@
     false || false = false
 
 !   -> Negação
-    !true = faler
+    !true = false
     !false = true  
 */
 

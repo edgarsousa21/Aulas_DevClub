@@ -9,7 +9,7 @@ DESAFIO FUNCTIONS
 const tabuada = number =>{
       if(number >= 1 && number <=10){
         for (let i = 1; i <=number; i++ ){
-        console.log(`${i} * ${number} =  ${i * number} `)
+        console.log(`${i} x ${number} =  ${i * number} `)
        }
 
       }else{
