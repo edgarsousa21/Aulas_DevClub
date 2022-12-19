@@ -3,9 +3,10 @@
       - getElementsById() // Trás apenas um elemtento (element)
       - getElementsByClassName() // Trás diversos elementos (HTML Collection) 
       - getElementsByTagName () // Trás diversos elementos (HTML Collection) 
+      - getElementsByName() // Trás os elementos com o nome selecionado (NodeList)
 
       - querySelector // Trás apenas um elemento, o primeiro que encontrar (element)
-      - querySelector // Trás TODOS os elementos que encontrar (NodeList)
+      - querySelectorAll // Trás TODOS os elementos que encontrar (NodeList)
 
 - NodeList x HTML colection   
 
@@ -14,19 +15,36 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1 id="main-text">Meu Primeiro Site</h1>
 
-    <p class="paragraph">Meu Parágrafo</p>
+    <button onclick="myFunction()">Aperte Aqui</button>
 
-    <p class="paragraph">Segundo Parágrafo</p>
-    
+    <select>
+        <option>Opção 1</option>
+        <option>Opção 2</option>
+        <option>Opção 3</option>
+        <option>Opção 4</option>
+    </select>
+
+    <!-- <input name="my-input" value="valor do input"> -->
+    <input>
+
+    <!-- <img src="./img/code-club.jpg"> -->
+
+    <!-- <p class="paragraph">Meu Parágrafo</p> -->
+
+    <!-- <p class="paragraph">Segundo Parágrafo</p> -->
+
 </body>
-<script src="./02_selecionandoElementos.js"></script>
+<script src="./03_ao_14_selecionandoElementos.js"></script>
+
 </html>
